@@ -1,0 +1,45 @@
+html{
+  box-sizing: border-box;
+}
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+a{
+  color: inherit;
+  display: inline-block;
+  text-decoration: none;
+}
+ul, ol{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+li{
+  display: inline-block;
+}
+button, input, textarea{
+  border: none;
+  background-color: transparent;
+}
+button{
+  cursor: pointer;
+  padding: 0;
+}
+textarea{
+  resize: none;
+}
+h1, h2, h3, h4, h5, h6, p{
+  margin: 0;
+}
+body, html{
+  min-height: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+body{
+  display: flex;
+  flex-direction: column;
+}
+main{
+  flex-grow: 1;
+}
