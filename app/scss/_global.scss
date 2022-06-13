@@ -39,7 +39,17 @@ body, html{
 body{
   display: flex;
   flex-direction: column;
+  font-family: 'PF BeauSans Pro';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: $text;
 }
 main{
   flex-grow: 1;
+}
+.container{
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
 }

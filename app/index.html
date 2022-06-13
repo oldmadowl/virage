@@ -12,7 +12,433 @@
 
 <body>
 
-  
+
+  <!-- HEADER -->
+  <header class="header">
+
+    <!-- HEADER TOP -->
+    <div class="header__top">
+      <div class="container">
+        <div class="header__inner header-top__inner">
+
+          <!-- SEARCH FORM -->
+          <form class="search-form">
+            <input class="search-form__input" type="text" placeholder="Фраза для поиска">
+            <input class="search-form__btn" type="submit" value="">
+          </form>
+          <!-- /SEARCH FORM -->
+
+          <!-- ADRESS -->
+          <div class="adress header__adress">
+            г.Санкт-Петербург, пр.Елизарова, д.36а
+          </div>
+          <!-- /ADRESS -->
+
+          <!-- EMAIL -->
+          <a class="email header__email" href="mailto:amo@viraj-spb.ru">
+            amo@viraj-spb.ru
+          </a>
+          <!-- /EMAIL -->
+
+          <!-- PHONE -->
+          <a class="phone header__phone" href="tel:+78124554102">
+            +7 812 455-41-02
+          </a>
+          <!-- /PHONE -->
+
+        </div>
+      </div>
+    </div>
+    <!-- /HEADER TOP -->
+
+    <!-- HEADER BOTTOM -->
+    <div class="header__bottom">
+      <div class="container">
+        <div class="header__inner header-bottom__inner">
+
+          <!-- LOGO -->
+          <div class="logo">
+            <a class="logo__link" href="#">
+              <img class="logo__img" src="images/logo.svg" alt="">
+            </a>
+          </div>
+          <!-- /LOGO -->
+
+          <!-- MENU -->
+          <nav class="menu header__menu">
+            <ul class="menu__list">
+              <li class="menu__item header__menu-item dropdown">
+                <a class="menu__link" href="#">
+                  Услуги
+                </a>
+                <span class="dropdown__arrow">
+                  <svg width="6" height="4" viewBox="0 0 6 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M5.9041 0.524225L5.70756 0.326321C5.6457 0.264516 5.56341 0.230466 5.47546 0.230466C5.38756 0.230466 5.30517 0.264516 5.24331 0.326321L3.00134 2.56839L0.756787 0.323833C0.69503 0.262028 0.612639 0.228027 0.524736 0.228027C0.436833 0.228027 0.354393 0.262028 0.292588 0.323833L0.0960008 0.520518C-0.0320003 0.648421 -0.0320003 0.856764 0.0960008 0.984668L2.76841 3.66669C2.83017 3.72845 2.91246 3.77196 3.00115 3.77196H3.00217C3.09012 3.77196 3.17242 3.7284 3.23417 3.66669L5.9041 0.991936C5.96595 0.930179 5.9999 0.845398 6 0.757495C6 0.669543 5.96595 0.585933 5.9041 0.524225Z"
+                      fill="#91A3AF" />
+                  </svg>
+                </span>
+
+                <!-- DROPDOWN LIST -->
+                <ul class="dropdown__list menu-item__dropdown-list">
+                  <li class="dropdown__item">
+                    <a class="dropdown__link" href="#">
+                      Оформление магазинов и ТК
+                    </a>
+                  </li>
+                  <li class="dropdown__item">
+                    <a class="dropdown__link" href="#">
+                      Реклама для застройщиков
+                    </a>
+                  </li>
+                  <li class="dropdown__item">
+                    <a class="dropdown__link" href="#">
+                      Согласование наружной рекламы
+                    </a>
+                  </li>
+                  <li class="dropdown__item">
+                    <a class="dropdown__link" href="#">
+                      Разработка дизайн макетов
+                    </a>
+                  </li>
+                  <li class="dropdown__item">
+                    <a class="dropdown__link" href="#">
+                      Разработка проектной документации
+                    </a>
+                  </li>
+                  <li class="dropdown__item">
+                    <a class="dropdown__link" href="#">
+                      Монтаж и демонтаж конструкций
+                    </a>
+                  </li>
+                  <li class="dropdown__item">
+                    <a class="dropdown__link" href="#">
+                      Ремонт вывесок
+                    </a>
+                  </li>
+                  <li class="dropdown__item">
+                    <a class="dropdown__link" href="#">
+                      Широкоформатная печать
+                    </a>
+                  </li>
+                  <li class="dropdown__item">
+                    <a class="dropdown__link" href="#">
+                      Фрезерная резка
+                    </a>
+                  </li>
+                  <li class="dropdown__item">
+                    <a class="dropdown__link" href="#">
+                      Лазерная резка
+                    </a>
+                  </li>
+                  <li class="dropdown__item">
+                    <a class="dropdown__link" href="#">
+                      Лазерная гравировка
+                    </a>
+                  </li>
+                  <li class="dropdown__item">
+                    <a class="dropdown__link" href="#">
+                      Формовка
+                    </a>
+                  </li>
+                  <li class="dropdown__item inner-dropdown">
+                    <a class="dropdown__link" href="#">
+                      Доп. услуги
+                    </a>
+                    <span class="inner-dropdown__arrow">
+                      <svg width="4" height="6" viewBox="0 0 4 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M0.524225 0.0959034L0.326321 0.292441C0.264515 0.354296 0.230466 0.436589 0.230466 0.524541C0.230466 0.612444 0.264515 0.694835 0.326321 0.756689L2.56839 2.99866L0.323833 5.24321C0.262028 5.30497 0.228027 5.38736 0.228027 5.47526C0.228027 5.56317 0.262028 5.64561 0.323833 5.70741L0.520518 5.904C0.648421 6.032 0.856764 6.032 0.984668 5.904L3.66669 3.23159C3.72845 3.16983 3.77196 3.08754 3.77196 2.99885L3.77196 2.99783C3.77196 2.90988 3.7284 2.82758 3.66669 2.76583L0.991936 0.0959034C0.930179 0.034049 0.845398 9.72478e-05 0.757495 -2.31438e-08C0.669543 -1.92993e-08 0.585932 0.034049 0.524225 0.0959034Z"
+                          fill="#91A3AF" />
+                      </svg>
+                    </span>
+
+                    <!-- INNER DROPDOWN LIST -->
+                    <div class="inner-dropdown__list-wrapper">
+                      <ul class="dropdown__list inner-dropdown__list">
+                        <li class="dropdown__item">
+                          <a class="dropdown__link" href="#">
+                            Оклейка автомобилей
+                          </a>
+                        </li>
+                        <li class="dropdown__item">
+                          <a class="dropdown__link" href="#">
+                            Плоттерная резка
+                          </a>
+                        </li>
+                        <li class="dropdown__item">
+                          <a class="dropdown__link" href="#">
+                            Формовка
+                          </a>
+                        </li>
+                        <li class="dropdown__item">
+                          <a class="dropdown__link" href="#">
+                            Разработка проектной документации
+                          </a>
+                        </li>
+                        <li class="dropdown__item">
+                          <a class="dropdown__link" href="#">
+                            Согласование фасадов
+                          </a>
+                        </li>
+                        <li class="dropdown__item">
+                          <a class="dropdown__link" href="#">
+                            Разработка дизайн макетов
+                          </a>
+                        </li>
+                        <li class="dropdown__item">
+                          <a class="dropdown__link" href="#">
+                            Выставочное оборудование
+                          </a>
+                        </li>
+                        <li class="dropdown__item">
+                          <a class="dropdown__link" href="#">
+                            Полиграфическая продукция
+                          </a>
+                        </li>
+                        <li class="dropdown__item">
+                          <a class="dropdown__link" href="#">
+                            Рекламная фотосъемка
+                          </a>
+                        </li>
+                        <li class="dropdown__item">
+                          <a class="dropdown__link" href="#">
+                            Производство наружней рекламы
+                          </a>
+                        </li>
+                        <li class="dropdown__item">
+                          <a class="dropdown__link" href="#">
+                            Разработка рекламных кампаний
+                          </a>
+                        </li>
+                        <li class="dropdown__item">
+                          <a class="dropdown__link" href="#">
+                            Разработка логотипа и фирменного стиля
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <!-- /INNER DROPDOWN LIST -->
+
+                  </li>
+                </ul>
+                <!-- /DROPDOWN LIST -->
+
+              </li>
+              <li class="menu__item header__menu-item">
+                <a class="menu__link" href="#">
+                  Продукция
+                </a>
+              </li>
+              <li class="menu__item header__menu-item">
+                <a class="menu__link" href="#">
+                  Цены
+                </a>
+              </li>
+              <li class="menu__item header__menu-item">
+                <a class="menu__link" href="#">
+                  Наши работы
+                </a>
+              </li>
+              <li class="menu__item header__menu-item">
+                <a class="menu__link" href="#">
+                  Акции
+                </a>
+              </li>
+              <li class="menu__item header__menu-item">
+                <a class="menu__link" href="#">
+                  Отзывы
+                </a>
+              </li>
+              <li class="menu__item header__menu-item drop-menu-link">
+                <a class="menu__link" href="#">
+                  О компании
+                </a>
+                <span class="drop-menu-link__arrow">
+                  <svg width="6" height="4" viewBox="0 0 6 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M5.9041 0.524225L5.70756 0.326321C5.6457 0.264516 5.56341 0.230466 5.47546 0.230466C5.38756 0.230466 5.30517 0.264516 5.24331 0.326321L3.00134 2.56839L0.756787 0.323833C0.69503 0.262028 0.612639 0.228027 0.524736 0.228027C0.436833 0.228027 0.354393 0.262028 0.292588 0.323833L0.0960008 0.520518C-0.0320003 0.648421 -0.0320003 0.856764 0.0960008 0.984668L2.76841 3.66669C2.83017 3.72845 2.91246 3.77196 3.00115 3.77196H3.00217C3.09012 3.77196 3.17242 3.7284 3.23417 3.66669L5.9041 0.991936C5.96595 0.930179 5.9999 0.845398 6 0.757495C6 0.669543 5.96595 0.585933 5.9041 0.524225Z"
+                      fill="#91A3AF" />
+                  </svg>
+                </span>
+              </li>
+              <li class="menu__item header__menu-item">
+                <a class="menu__link" href="#">
+                  Контакты
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <!-- /MENU -->
+
+        </div>
+      </div>
+
+      <!-- DROP MENU -->
+      <div class="drop-menu">
+        <div class="container">
+          <div class="drop-menu__inner">
+            <div class="drop-menu__block">
+              <img class="drop-menu__list-icon" src="images/icons/production-icon.svg" alt="">
+              <div class="drop-menu__list-wrapper">
+                <div class="drop-menu__title">
+                  Продукция
+                </div>
+                <ul class="drop-menu__list">
+                  <li class="drop-menu__item">
+                    <a class="drop-menu__link" href="#">
+                      Вывески (Объеные буквы)
+                    </a>
+                  </li>
+                  <li class="drop-menu__item">
+                    <a class="drop-menu__link" href="#">
+                      Световые панели
+                    </a>
+                  </li>
+                  <li class="drop-menu__item">
+                    <a class="drop-menu__link" href="#">
+                      Световые короба
+                    </a>
+                  </li>
+                  <li class="drop-menu__item">
+                    <a class="drop-menu__link" href="#">
+                      Световые консоли
+                    </a>
+                  </li>
+                  <li class="drop-menu__item">
+                    <a class="drop-menu__link" href="#">
+                      Аптечные кресты
+                    </a>
+                  </li>
+                  <li class="drop-menu__item">
+                    <a class="drop-menu__link" href="#">
+                      Стритлайны (штендеры)
+                    </a>
+                  </li>
+                  <li class="drop-menu__item">
+                    <a class="drop-menu__link" href="#">
+                      Световые стенды (пилоны)
+                    </a>
+                  </li>
+                  <li class="drop-menu__item">
+                    <a class="drop-menu__link" href="#">
+                      Рекламные планшеты
+                    </a>
+                  </li>
+                  <li class="drop-menu__item">
+                    <a class="drop-menu__link" href="#">
+                      Информационные стенды
+                    </a>
+                  </li>
+                  <li class="drop-menu__item">
+                    <a class="drop-menu__link" href="#">
+                      Рекламные щиты
+                    </a>
+                  </li>
+                  <li class="drop-menu__item">
+                    <a class="drop-menu__link" href="#">
+                      Таблички
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="drop-menu__block">
+              <img class="drop-menu__list-icon" src="images/icons/merit-icon.svg" alt="">
+              <div class="drop-menu__list-wrapper">
+                <div class="drop-menu__title">
+                  Услуги
+                </div>
+                <ul class="drop-menu__list">
+                  <li class="drop-menu__item">
+                    <a class="drop-menu__link" href="#">
+                      Разработка проектной документации
+                    </a>
+                  </li>
+                  <li class="drop-menu__item">
+                    <a class="drop-menu__link" href="#">
+                      Согласование наружной рекламы
+                    </a>
+                  </li>
+                  <li class="drop-menu__item">
+                    <a class="drop-menu__link" href="#">
+                      Обслуживание наружной рекламы
+                    </a>
+                  </li>
+                  <li class="drop-menu__item">
+                    <a class="drop-menu__link" href="#">
+                      Широкоформатная печать
+                    </a>
+                  </li>
+                  <li class="drop-menu__item">
+                    <a class="drop-menu__link" href="#">
+                      Монтажные работы
+                    </a>
+                  </li>
+                  <li class="drop-menu__item">
+                    <a class="drop-menu__link" href="#">
+                      Плоттерная резка
+                    </a>
+                  </li>
+                  <li class="drop-menu__item">
+                    <a class="drop-menu__link" href="#">
+                      Фрезерная резка
+                    </a>
+                  </li>
+                  <li class="drop-menu__item">
+                    <a class="drop-menu__link" href="#">
+                      Дизайн макет
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="drop-menu__block">
+              <img class="drop-menu__list-icon" src="images/icons/materials-icon.svg" alt="">
+              <div class="drop-menu__list-wrapper">
+                <div class="drop-menu__title">
+                  Материалы
+                </div>
+                <ul class="drop-menu__list">
+                  <li class="drop-menu__item">
+                    <a class="drop-menu__link" href="#">
+                      Карманы и перекидные системы
+                    </a>
+                  </li>
+                  <li class="drop-menu__item">
+                    <a class="drop-menu__link" href="#">
+                      Листовые материалы
+                    </a>
+                  </li>
+                  <li class="drop-menu__item">
+                    <a class="drop-menu__link" href="#">
+                      Электрофурнитура
+                    </a>
+                  </li>
+                  <li class="drop-menu__item">
+                    <a class="drop-menu__link" href="#">
+                      Профили
+                    </a>
+                  </li>
+                  <li class="drop-menu__item">
+                    <a class="drop-menu__link" href="#">
+                      Пленки
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /DROP MENU -->
+
+    </div>
+    <!-- /HEADER BOTTOM -->
+
+
+  </header>
+  <!-- /HEADER -->
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
