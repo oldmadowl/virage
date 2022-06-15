@@ -613,7 +613,6 @@
     display: flex;
     align-items: center;
     line-height: 20px;
-    transition: all .3s;
     &:hover{
       color: #00C658;
       span{
@@ -637,5 +636,116 @@
   }
 }
 // END QUESTIONS
+
+
+// START PRODUCTION
+.production{
+  padding: 60px 0;
+  background-color: $bg;
+  &__inner{
+    display: flex;
+    margin-bottom: 50px;
+  }
+  &__info{
+    flex-basis: 653px;
+    margin-right: 30px;
+  }
+  &__title{
+    max-width: 380px;
+  }
+  &__text{
+    margin-bottom: 30px;
+    & + &{
+      margin-top: 25px;
+    }
+  }
+  &__gallery{
+    display: flex;
+    justify-content: space-between;
+    line-height: 0;
+  }
+  &__img{
+    width: 319px;
+    height: 210px;
+    object-fit: cover;
+    object-position: center;
+  }
+  &__block-item{
+    display: flex;
+    & + &{
+      padding-top: 30px;
+      margin-top: 30px;
+      border-top: 1px solid #DFE1E3;
+    }
+  }
+  &__block-icon{
+    margin-right: 30px;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    object-position: center;
+  }
+  &__item-title{
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  &__item-text{
+    font-size: 13px;
+    line-height: 18px;
+  }
+  &__bottom-title{
+    margin-bottom: 55px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    text-align: center;
+    span{
+      color: #00C658;
+    }
+  }
+  &__process{
+    display: flex;
+    margin-bottom: 40px;
+  }
+  &__process-item{
+    position: relative;
+    text-align: center;
+    flex-basis: 195px;
+    & + &{
+      margin-left: 53px;
+      &::before{
+        content: '+';
+        position: absolute;
+        top: 30px;
+        left: -20%;
+        font-weight: 700;
+        font-size: 18px;
+      }
+    }
+  }
+  &__process-icon{
+    margin-bottom: 15px;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    object-position: center;
+  }
+  &__process-text{
+    font-weight: 600;
+    line-height: 20px;
+  }
+  &__btn{
+    @include btn;
+    display: block;
+    margin: 0 auto;
+  }
+}
+.production__process-item:last-child{
+  &::before{
+    content: '=';
+  }
+}
+// END PRODUCTION
 
 @import 'media';
