@@ -2,3 +2,20 @@ $text: #3C4658;
 $bg: #F4F7FA;
 $accent: #5DC560;
 $bold: #3C4658;
+$title: #23475F;
+
+@mixin btn($bgcolor: $accent) {
+  padding: 0 10px;
+  color: #fff;
+  background-color: $bgcolor;
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 50px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  width: 250px;
+  height: 50px;
+}

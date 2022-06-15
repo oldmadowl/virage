@@ -12,4 +12,20 @@ $(function () {
     $('.drop-menu-link').toggleClass('drop-menu-link--active');
   });
 
+  //slider in section offer
+  $('.offer__slider').slick({
+    dots: true,
+    prevArrow: '<button class="slick-btn slick-prev"><img src="images/icons/arrow-left.svg" alt=""></button>',
+    nextArrow: '<button class="slick-btn slick-next"><img src="images/icons/arrow-right.svg" alt=""></button>',
+  });
+
+  //slider in section price
+  $('.price__slider').slick({
+    dots: true,
+    prevArrow: '<button class="slick-btn slick-prev"><img src="images/icons/arrow-left.svg" alt=""></button>',
+    nextArrow: '<button class="slick-btn slick-next"><img src="images/icons/arrow-right.svg" alt=""></button>',
+    slidesToShow: 3,
+    slidesToScroll: 3,
+  });
+
 });
