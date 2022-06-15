@@ -465,6 +465,7 @@
     transition: all .3s;
     &:hover{
       color: #00C658;
+      text-decoration-color: transparent;
     }
   }
 }
@@ -747,5 +748,113 @@
   }
 }
 // END PRODUCTION
+
+
+// START AGREEMENT
+.agreement{
+  padding: 60px 0;
+  &__inner{
+    display: flex;
+    align-items: flex-start;
+  }
+  &__content{
+    margin-right: 27px;
+    flex-basis: 656px;
+  }
+  &__text{
+    margin-bottom: 30px;
+  }
+  &__list{
+
+  }
+  &__list-item{
+    position: relative;
+    display: block;
+    padding-left: 26px;
+    font-weight: 600;
+    & + &{
+      margin-top: 15px;
+    }
+    &::before{
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      background-image: url('../images/icons/check.svg');
+      width: 16px;
+      height: 16px;
+    }
+  }
+  &__block-text,
+  &__block-notation{
+    font-size: 13px;
+    line-height: 18px;
+  }
+  &__block-notation{
+    margin-top: 15px;
+    font-weight: 600;
+  }
+}
+// END AGREEMENT
+
+
+// START SPECIAL
+.special{
+  padding: 60px 0;
+  background-color: $bg;
+  &__text{
+    margin-bottom: 30px;
+  }
+  &__inner{
+    display: flex;
+    margin-bottom: 30px;
+    border-left: 1px solid #DFE1E3;
+  }
+  &__item{
+    position: relative;
+    padding: 20px;
+    padding-bottom: 45px;
+    background-color: #fff;
+    flex-basis: 25%;
+    border: 1px solid #DFE1E3;
+    border-left: none;
+    transition: all .3s;
+    &:hover{
+      box-shadow: 0px 0px 10px rgba(35, 71, 95, 0.15);
+      z-index: 10;
+    }
+  }
+  &__item-img-link{
+    line-height: 0;
+  }
+  &__item-img{
+    margin-bottom: 20px;
+    height: 244px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  &__item-title{
+    margin-bottom: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all .3s;
+    &:hover{
+      color: $accent;
+    }
+  }
+  &__item-text{
+    color: #777E8B;
+    font-size: 13px;
+    line-height: 21px;
+  }
+  &__btn{
+    @include btn;
+    display: block;
+    margin: 0 auto;
+  }
+}
+// END SPECIAL
 
 @import 'media';
