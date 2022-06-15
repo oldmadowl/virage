@@ -588,7 +588,54 @@
     line-height: 18px;
   }
 }
-
 // END ADVANTAGES
+
+
+// START QUESTIONS
+.questions{
+  padding: 60px 0;
+  &__inner{
+    display: flex;
+    align-items: flex-start;
+  }
+  &__info{
+    margin-right: 30px;
+    flex-basis: 653px;
+    flex-shrink: 0;
+  }
+  &__text + &__text{
+    margin-top: 25px;
+  }
+  &__list-item + &__list-item{
+   margin-top: 18px;
+  }
+  &__list-link{
+    display: flex;
+    align-items: center;
+    line-height: 20px;
+    transition: all .3s;
+    &:hover{
+      color: #00C658;
+      span{
+        text-decoration-color: transparent;
+      }
+      .questions__list-icon circle{
+        fill: #00C658;
+      }
+    }
+    span{
+      text-decoration: underline;
+      transition: all .3s;
+    }
+  }
+  &__list-icon{
+    margin-right: 10px;
+    flex-shrink: 0;
+    circle{
+      transition: all .3s;
+    }
+  }
+}
+// END QUESTIONS
 
 @import 'media';

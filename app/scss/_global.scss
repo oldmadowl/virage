@@ -99,3 +99,18 @@ main{
     line-height: 19px;
   }
 }
+.block{
+  padding: 30px;
+  background-color: #fff;
+  flex-basis: 457px;
+  border: 1px solid #DFE1E3;
+  &__icon{
+    margin-bottom: 15px;
+  }
+  &__title{
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
