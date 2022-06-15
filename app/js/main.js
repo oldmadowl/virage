@@ -30,4 +30,11 @@ $(function () {
     initialSlide: 4,
   });
 
+  //symbols limitations for footer__list-text
+  $('.footer__list-text').each(function() {
+    if ($(this).text().length > 80) {
+      $(this).text( $(this).text().substring(0, 80) + '…');
+    };
+  });
+
 });
